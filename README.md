@@ -1,18 +1,18 @@
 # **Online Water Delivery Interface**  
 
 ## **Project Overview**  
+This is an **old web project** made for a final school project. It is a simple system where users can order water delivery online. The website has images, information, and a login system for users. Some small improvements have been made, but the core features remain the same.  
 
-This project is an **older web development project** originally created as a final project. While it remains largely unchanged, some minor improvements have been made to enhance its functionality and structure. The system provides an online platform where users can view and order water delivery services through a dynamic webpage. The interface includes interactive elements, images, and essential information for users.  
-
-## **Programming Languages and Tools Used**  
-- **PHP** – Backend development for handling form submissions and database operations.  
-- **CSS** – Styling for responsiveness and user-friendly design.  
-- **HTML** – Markup structure of the webpage.  
-- **MySQL** – Database for storing user credentials and order data.  
-- **XAMPP** – Local development environment for testing.  
+## **Technologies Used**  
+- **PHP** – Handles forms and connects to the database.  
+- **CSS** – Styles the webpage.  
+- **HTML** – Builds the webpage structure.  
+- **MySQL** – Stores user accounts and orders.  
+- **XAMPP** – Used for testing the project locally.  
 
 ## **Features**  
-- **Dynamic Webpage** – Displays relevant content, images, and interactive elements for water delivery services.  
-- **User Authentication** – Allows users to register and log in securely, with credentials stored in a MySQL database.  
-- **PDO for Database Interaction** – Utilizes PHP Data Objects (PDO) for secure and efficient database operations.  
+- **Simple Online Ordering** – Users can see and order water delivery.  
+- **User Login System** – Users can create an account and log in.  
+- **Secure Database** – Uses PDO to safely store and get data.  
 
+This project was made for practice and learning but still works as a basic online ordering system.
