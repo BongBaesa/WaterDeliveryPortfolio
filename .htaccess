@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+     # Redirect CSS, App, Images, and Product Resources
+    RewriteRule ^css/(.*)$ public/resources/css/$1 [L]
+    RewriteRule ^assets/(.*)$ public/resources/assets/$1 [L]
+    RewriteRule ^images/(.*)$ public/resources/images/$1 [L]
+    RewriteRule ^product/(.*)$ public/resources/product/$1 [L]
+
+     # Subfolder Views (Home, About, Services)
+     RewriteRule ^views/(.*)$ public/views/$1 [L]
+
+    # Default Routing to Public Folder
+    RewriteRule ^$ public/ [L]
+    RewriteRule (.*) public/$1 [L]
+</IfModule>
+
