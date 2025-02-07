@@ -37,17 +37,7 @@ require __DIR__ . '/../src/login.php';
         <a class="label-account" href="register.php">Create an account</a>
     </section>
 </form>
+<script src="assets/script.js"></script>
 
 <?php view('footer') ?>
 
-<script>
-        function myFunction() {
-            var Show = document.getElementById('password')
-            if (Show.type == 'password') {
-                Show.type = 'text';
-            }
-            else {
-                Show.type = 'password';
-            }
-        }
-    </script>
